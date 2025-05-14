@@ -1,0 +1,30 @@
+
+
+.gray_block {
+  background: #3e3e3e;
+}
+
+
+.purple_text {
+  color: #ce93d8;;
+}
+
+
+.red_block {
+  width: 100px;
+  height: 100px;
+  background: #ff0000;
+}
+
+
+.purple_block {
+  width: 300px;
+  background: #ce93d8;
+}
+
+
+.dark_purple  {
+  background: #ab47bc;
+}
+
+
