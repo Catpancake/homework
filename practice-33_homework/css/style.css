@@ -1,0 +1,39 @@
+.some-text {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: justify;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: dashed;
+}
+
+.open-sans_homework {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.open-sans_word-space {
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 30px;
+    text-decoration: underline double red;
+}
+
+.open-sans_letter-space {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 5px;
+    text-decoration: underline wavy #23707dd4 15%;
+}
+
+.open-sans_underline {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: underline;
+}
+
+.open-sans_line-through {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: line-through dotted #9f02667f 11px;
+}
