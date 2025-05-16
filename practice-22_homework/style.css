@@ -1,0 +1,22 @@
+.header {
+  height: 60px;
+  background: #e5ad50;
+}
+
+a {
+  color: black;
+}
+
+.quote {
+  background: #f6e8ce;
+}
+
+.footer {
+  color: #fff;
+  height: 300px;
+  background: #7b2cdd;
+}
+
+.footer a {
+  color: #fff;
+}
