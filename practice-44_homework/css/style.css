@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ==================== */
+
+.main-folder {
+    height: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 20px 0 0 20px;
+    overflow: auto;
+    background: #c6c6c6;
+}
+
+.card {
+    display: inline-block;
+    width: 235px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 5px 2px #363535;
+    background: #a78c68;
+}
