@@ -49,4 +49,48 @@ for (let i = 0; i < users.length; i++) {
         userCount = userCount + 1
     }
 }
-console.log(userCount)
+console.log(userCount) 
+
+// =============================== 2_hmw
+
+
+const numbers = [2, 4, 5, 6, 8, 12, 10, 16, 34]
+
+const checkNumbers = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] >= 10) {
+            console.log(`это тебе: ${array[i]}`)
+        }
+    }
+}
+
+checkNumbers(numbers)
+
+// =============================== 3_hmw
+
+const symbol = ['plus','minus','multiply','divide']
+
+const simpleCalc = (fstNumber, scdNumber, symbol) => {
+    if (symbol === 'plus') {
+        return fstNumber + scdNumber
+    } else if (symbol === 'minus') {
+        return fstNumber - scdNumber
+    } else if (symbol === 'multiply') {
+        return fstNumber * scdNumber
+    } else if (symbol === 'divide') {
+        if (scdNumber !== 0) {
+            return fstNumber / scdNumber
+        } else {
+            return `Ай как хорошо!`
+        }
+
+    }
+
+}
+
+const fstNumber = 2;
+const scdNumber = 3;
+
+for (let i = 0; i < symbol.length; i++) {
+    console.log(simpleCalc(fstNumber, scdNumber, symbol[i]))
+}
