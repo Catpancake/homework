@@ -1,0 +1,96 @@
+.body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 101vh;
+    background: #000000;
+}
+.body img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.body--fixed {
+    overflow-y: hidden;
+}
+
+.btn-open {
+    position: relative;
+    top: 153px;;
+    left: -60px;
+    width: 290px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #961b1b;
+    background: #908e8e85;
+    border-radius: 10px;
+    transition: all .2s;
+}
+.btn-open--green {
+    color:#2f8e09e7 ;
+}
+.btn-open:hover {
+    color: #2f8e09e7;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080808aa;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.modal--open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__window {
+    position: relative;
+    top: -150px;
+    width: 36vw;
+    min-height: 40vh;
+    padding: 50px 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    background: no-repeat 50% 50% / cover url(../img/101.gif);
+    box-shadow: 0px 5px 26px 44px rgba(246, 251, 255, 0.2);
+}
+
+.modal__close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #00000000;
+}
+
+/* ================================= */
+
+.dvd {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon__wrapper {
+    width: 100px;
+    height: 50px;
+    background: no-repeat center center / contain url(../img/dvd.png);
+}
