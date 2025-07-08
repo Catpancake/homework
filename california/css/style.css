@@ -1139,6 +1139,8 @@ body {
 
 @media(max-width: 450px) {
     .subscribe__form {
+    border: none;
+    border-radius: 0px;
     gap: 15px 0;
     flex-direction: column;
     }
