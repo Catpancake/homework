@@ -71,6 +71,9 @@ body {
     bottom: -8px
 }
 
+.body--opened-menu {
+    overflow: hidden;
+}
 .body--opened-menu .burger-icon span {
     background: rgba(0, 0, 0, 0)
 }
