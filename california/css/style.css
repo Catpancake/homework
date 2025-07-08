@@ -686,6 +686,10 @@ body {
     padding: 0 20px
 }
 
+.search-input {
+    background: inherit;
+}
+
 .search__icon {
     cursor: pointer;
     width: 20px;
@@ -1134,7 +1138,17 @@ body {
 }
 
 @media(max-width: 450px) {
+    .subscribe__form {
+    gap: 15px 0;
+    flex-direction: column;
+    }
+    .subscribe__input {
+    border: 1px solid #000;
+    border-radius: 50px;
+    }
+    
     .subscribe__button {
-        padding: 0px 10px
+    padding: 20px 30px;
+    border-radius: 50px;
     }
 }
